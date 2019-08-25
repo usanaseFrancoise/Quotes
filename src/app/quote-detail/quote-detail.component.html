@@ -5,9 +5,11 @@
     <br>
     </p>
     <p>{{quote.author}}</p>
+    <p>{{numberOfDislikes}}</p>
+    <p>{{numberOfLikes}}</p>
     <button (click)= 'quoteDelete(true)'  class="btn btn-outline-danger" style="display:inline-block;">Delete</button>
-     <button (click)= 'qouteUpvote(true)'  class="btn btn-success"style="display:inline-block;">Upvote</button>
-     <button (click)= 'quoteDownvote(true)'  class="btn btn-danger"style="display:inline-block;">Downvote</button>
+     <button (click)= 'quoteLike()'  class="btn btn-success"style="display:inline-block;">Upvote</button>
+     <button (click)= ' quoteUnlike()'  class="btn btn-danger"style="display:inline-block;">Downvote</button>
 
 
 <p> {{quote.completeDate|timeAgo}}</p>

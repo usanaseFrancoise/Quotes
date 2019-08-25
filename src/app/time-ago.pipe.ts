@@ -6,7 +6,7 @@ import {Pipe, PipeTransform, NgZone, ChangeDetectorRef, OnDestroy} from "@angula
 export class TimeAgoPipe implements PipeTransform, OnDestroy {
    private timer: number;
    constructor(private changeDetectorRef: ChangeDetectorRef, private ngZone: NgZone) {}
-   transform(value:string) {
+   transform(value:any) {
        this.removeTimer();
        let d = new Date(value);
        let now = new Date();

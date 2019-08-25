@@ -18,19 +18,19 @@ export class QuoteDetailComponent implements OnInit {
           this.isComplete.emit(complete);
         }
 
-        quoteUpvote(complete:boolean){
-          this.isComplete.emit(complete);
+        // quoteUpvote(complete:boolean){
+        //   this.isComplete.emit(complete);
+        // }
+        // quoteDownvote(complete:boolean){
+        //   this.isComplete.emit(complete);
+  //       }
+        numberOfLikes=0;
+        numberOfDislikes=0;
+        quoteLike(){
+          this.numberOfLikes++;
         }
-        quoteDownvote(complete:boolean){
-          this.isComplete.emit(complete);
-  //       }
-  //       numberOfLikes=0;
-  //       numberOfDislikes=0;
-  //       quoteLike(){
-  //         this.numberOfLikes++;
-  //       }
-  //       quoteUnlike(){
-  //         this.numberOfDislikes--;
+        quoteUnlike(){
+          this.numberOfDislikes--;
         }
   constructor() {}
 
