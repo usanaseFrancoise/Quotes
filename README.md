@@ -1,27 +1,20 @@
-# Quotes
+Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
-## Development server
+Development server QUOTES
+QUOTE App Description QUOTEApp is a website that will help the User to update his/her quote online
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ptrs of my website There is some quote that will help the users dairly there are some updates Quotes related according on what you want click on More yoy will get the quotes related on what you want also there is a section of adding the quotes
+you first need to enter the Firstname Author Quote Date of updating the quote and t click SUBMIT
 
-## Code scaffolding
+Instruction please when you have finished to order first check your updates you will see the Quote added on left section of Added quote you will also click on More and see whether your quote you have write is really the same as what hve been updated. there will be also the way you can use to delete the quote clik on delete you will see live the message In short time you will receive the message that will confirmed that you really need to delete click ok if yes or cance;to cancel the choose you have made
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+contact:
 
-## Build
+Usanase Francoise:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+phone contact ::0788494207
 
-## Running unit tests
+E-mail:fusanasencoise@gmail.com
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+myQuotes copyright 2019 ©usanase Francoise.All rights reserved
