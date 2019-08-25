@@ -1,6 +1,6 @@
 # Quotes
-<img src="src="https://apkdl.in/apkimage/n9A9vbRH_HUGcRTJKO33kCLiYsXDmSULslNr_o-d22FBUnu-k-i5YINLnkFT_IW-Cw">
 
+<img src="https://apkdl.in/apkimage/n9A9vbRH_HUGcRTJKO33kCLiYsXDmSULslNr_o-d22FBUnu-k-i5YINLnkFT_IW-Cw">
 ## Development server QUOTES
 QUOTE App Description QUOTEApp is a website that will help the User to update his/her quote online
 
