@@ -23,16 +23,16 @@ export class QuoteDetailComponent implements OnInit {
         }
         quoteDownvote(complete:boolean){
           this.isComplete.emit(complete);
+  //       }
+  //       numberOfLikes=0;
+  //       numberOfDislikes=0;
+  //       quoteLike(){
+  //         this.numberOfLikes++;
+  //       }
+  //       quoteUnlike(){
+  //         this.numberOfDislikes--;
         }
-        numberOfLikes=0;
-        numberOfDislikes=0;
-        quoteLike(){
-          this.numberOfLikes++;
-        }
-        quoteUnlike(){
-          this.numberOfDislikes--;
-        }
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }

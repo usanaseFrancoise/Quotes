@@ -14,9 +14,7 @@
                <!-- <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'completeGoal($event,i)'></app-quote-detail> -->
                <div *ngIf='quote.showDescription'>    
                    <app-quote-detail [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
-                   <button (click)= 'qouteUpvote(true)'  class="btn btn-success"style="display:inline-block;">Upvote</button>
-                   <button (click)= 'quoteDownvote(true)'  class="btn btn-danger"style="display:inline-block;">Downvote</button>
-            
+                  
                 </div>
               </div>
          </div>

@@ -6,8 +6,8 @@
     </p>
     <p>{{quote.author}}</p>
     <button (click)= 'quoteDelete(true)'  class="btn btn-outline-danger" style="display:inline-block;">Delete</button>
-     <button (click)= 'qouteUpvote()'  class="btn btn-success"style="display:inline-block;">Upvote</button>
-     <button (click)= 'quoteDownvote()'  class="btn btn-danger"style="display:inline-block;">Downvote</button>
+     <button (click)= 'qouteUpvote(true)'  class="btn btn-success"style="display:inline-block;">Upvote</button>
+     <button (click)= 'quoteDownvote(true)'  class="btn btn-danger"style="display:inline-block;">Downvote</button>
 
 
 <p> {{quote.completeDate|timeAgo}}</p>
