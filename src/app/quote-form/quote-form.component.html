@@ -1,10 +1,10 @@
 <!-- <p>quote-form works!</p> --><div class="one">
-<h2   style="background-color:beige"class="text-center">Create Quotes</h2>
-<div   style="background-color:beige" class="container-fluid">
+<h2  class="text-center">Create Quotes</h2>
+<div class="container-fluid">
         <!-- <h2  class="text-center">Create Quotes</h2> -->
         <form   (ngSubmit)='submitQuote()' #goalForm='ngForm'>
  
-    <div      style="background-color:beige" style="top:-90px"    class="form-group">
+    <div    style="top:-90px"    class="form-group">
       
                 <label for="name">Name</label>
                 <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel'>
@@ -22,7 +22,7 @@
                             <p>Name is required</p>
                           </div>
     </div>
-    <div  style="background-color:beige"  class="form-group">
+    <div class="form-group">
       
                 <label for="description">Quotes</label>
                 <textarea class="form-control" id="description" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
