@@ -1,0 +1,32 @@
+<!-- <img src="https://thewallpaper.co//wp-content/uploads/2016/10/free-inspirational-quotes-wallpaper-background-photos-windows-tablet-4k-best-wallpaper-ever-free-download-pictures-2560x1600.jpg" style="height:100vh,background-image:cover,width:100px"> -->
+<div class="container">
+  <div class="row">
+     <div class="jumbotron">
+        <h1 style="margin-left:3%">Added Quotes</h1>
+        <div class="col-md-6">     
+            <div *ngFor='let quote of quotes;let i = index'>
+               <div>
+                 <h4 id={{i}} appStrikethrough>{{quote.name}} post on {{quote.completeDate|date}}</h4>
+                 <button (click)='toggleDetails(i)' style="color:orange">More</button>
+               </div>
+               
+               <!-- <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'completeGoal($event,i)'></app-quote-detail> -->
+               <div *ngIf='quote.showDescription'>    
+                   <app-quote-detail [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
+                 
+                 <!-- <app-quote-detail [quote]='quote' (isComplete) = 'upvoteQuote($event,i)'></app-quote-detail>
+                   <app-quote-detail [quote]='quote' (isComplete) = 'downvoteQuote($event,i)'></app-quote-detail> -->
+                </div>
+            </div>
+        </div>
+    </div>
+   
+        <div class="col-md-6">
+                <div class="jumbotron">
+               <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+          </div>
+        </div>
+</div>
+    <p *ngIf='quotes.length > 5'>You have too many goals</p>
+</div>
+
